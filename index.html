@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-bre">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+
+    <link
+      rel="shortcut icon"
+      href="./src/image/pokebola.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img class="pokemon" src="src/image/pokebola.png" alt="Pokébola" />
+      <h1 class="title">MapaDev Week</h1>
+    </header>
+
+    <main class="main">
+      <button class="btn-arrow btn-left" id="btn-left">
+        <img src="src/image/seta.png" alt="Seta voltar" />
+      </button>
+
+      <ul class="list-pokemon">
+        <li class="card background-1 selected">
+          <div class="infoCard">
+            <h2 class="name">Pikachu</h2>
+            <p class="hpLife">HP 300</p>
+          </div>
+          <div class="containerImg">
+            <img class="imgCard" src="src/image/pikachu.png" alt="Pikachu" />
+          </div>
+
+          <div class="decision">
+            <h3 class="nameTitle">Descrição</h3>
+            <p class="text">
+              Pikachu que pode gerar eletricidade poderosa tem bolsas nas
+              bochechas que são extra macias e super elásticas.
+            </p>
+          </div>
+        </li>
+
+        <li class="card background-2">
+          <div class="infoCard">
+            <h2 class="name">Charizard</h2>
+            <p class="hpLife">HP 500</p>
+          </div>
+
+          <div class="containerImg">
+            <img
+              class="imgCard"
+              src="src/image/charizard.png"
+              alt="Charizard"
+            />
+          </div>
+
+          <div class="decision">
+            <h3 class="nameTitle">Descrição</h3>
+            <p class="text">
+              Ele cospe fogo que é quente o suficiente para derreter
+              pedregulhos. Pode causar incêndios florestais soprando chamas.
+            </p>
+          </div>
+        </li>
+
+        <li class="card background-3">
+          <div class="infoCard">
+            <h2 class="name">Mewtwo</h2>
+            <p class="hpLife">HP 1200</p>
+          </div>
+
+          <div class="containerImg">
+            <img class="imgCard" src="src/image/mewtwo.png" alt="Mewtwo " />
+          </div>
+
+          <div class="decision">
+            <h3 class="nameTitle">Descrição</h3>
+            <p class="text">
+              Seu DNA é quase o mesmo do Mew. No entanto, seu tamanho e
+              disposição são muito diferentes.
+            </p>
+          </div>
+        </li>
+
+        <li class="card background-4">
+          <div class="infoCard">
+            <h2 class="name">Arceus</h2>
+            <p class="hpLife">HP 2300</p>
+          </div>
+
+          <div class="containerImg">
+            <img class="imgCard" src="src/image/arceus.png" alt="Arceus" />
+          </div>
+
+          <div class="decision">
+            <h3 class="nameTitle">Descrição</h3>
+            <p class="text">
+              De acordo com as lendas de Sinnoh, este Pokémon surgiu de um ovo e
+              moldou tudo o que existe neste mundo.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-arrow btn-reght" id="btn-reght">
+        <img src="src/image/seta.png" alt="Seta avançar" />
+      </button>
+    </main>
+
+    <footer class="footer">
+      Hugolino B. G. 2022. Todos os direitos reservados.
+    </footer>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
